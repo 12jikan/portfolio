@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeatherappComponent implements OnInit {
 
+  currentCity: string = "New York City"; 
+
   constructor() { }
 
   ngOnInit() {
