@@ -11,10 +11,7 @@ import { AppRoutingModule } from '../core/modules/app-routing.module';
     AppRoutingModule
   ],
   exports: [
-<<<<<<< HEAD
     AppRoutingModule
-=======
->>>>>>> dev
   ]
 })
 export class CoreModule { }

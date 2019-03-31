@@ -6,13 +6,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
-<<<<<<< HEAD
   declarations: [
     NavbarComponent
   ],
-=======
-  declarations: [NavComponent],
->>>>>>> dev
   imports: [
     CommonModule,
     
