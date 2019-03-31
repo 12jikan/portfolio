@@ -8,8 +8,6 @@ import { WeatherApiService } from '../../../../../../core/services/weather-api.s
 })
 export class WeatherappComponent implements OnInit {
 
-  currentCity: string = "New York City"; 
-
   constructor(private _weatherapi: WeatherApiService) { }
 
   ngOnInit() {
