@@ -3,11 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
-  { path: '', loadChildren: '../../feature/homepage/homepage.module.ts#HomepageModule' },
+  { path: 'home', loadChildren: '../../feature/homepage/homepage.module#HomepageModule' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes),
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
