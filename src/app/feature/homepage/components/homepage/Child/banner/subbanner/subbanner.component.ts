@@ -13,6 +13,7 @@ export class SubbannerComponent implements OnInit {
     strings: [
       "I am ^1000 a Creator", 
       "I am a Designer",
+      "I am a Programmer",
       "I am a Front End Developer^1000",
     ],
     typeSpeed: 40,
