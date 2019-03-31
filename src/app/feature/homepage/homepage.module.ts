@@ -4,13 +4,14 @@ import { Routes, RouterModule } from '@angular/router';
 // Homepage Components //
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { BannerComponent } from './components/homepage/Child/banner/banner.component';
+import { SubbannerComponent } from './components/homepage/child/banner/subbanner/subbanner.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent }
 ]
 
 @NgModule({
-  declarations: [HomepageComponent, BannerComponent],
+  declarations: [HomepageComponent, BannerComponent, SubbannerComponent],
   imports: [
     RouterModule.forChild(routes),
   ]
