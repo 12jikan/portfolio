@@ -1,17 +1,28 @@
-<div class="container">
-  <div class="columns is-multiline">
-
-    <div class="column is-12 has-text-centered">
-      <h1 class="is-size-3">Currently based out of : {{ curCity }}</h1>
+<div class="has-background-white-ter">
+  <div class="container">
+    <div class="columns has-text-centered is-centered">
+      
+      <div class="column is-3">
+        <div class="box">
+          
+          <h1 class="is-size-3">Currently Based in <span class="has-text-primary">{{ curCity }}</span></h1>
+          
+          <div>
+            <h1 class="is-size-1">
+              🏙️
+            </h1>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      <div class="column is-3">
+        <h1 class="is-size-3">
+          Today's weather is currently {{ weatherInfo.weather[0].main }}
+        </h1>
+      </div>
+      
     </div>
-
-    <div class="column is-6">
-      Today's weather is currently {{ weatherInfo.weather[0].main }}
-    </div>
-
-    <div class="column is-6">
-      asd1
-    </div>
-
   </div>
 </div>
