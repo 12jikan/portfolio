@@ -5,7 +5,7 @@
       <div class="column is-3">
         <div class="box">
           
-          <h1 class="is-size-3">Currently Based in <span class="has-text-primary">{{ curCity }}</span></h1>
+          <h1 class="is-size-3">Currently Based in <span class="has-text-danger">{{ curCity }}</span></h1>
           
           <div>
             <h1 class="is-size-1">
@@ -18,9 +18,22 @@
       </div>
       
       <div class="column is-3">
-        <h1 class="is-size-3">
-          Today's weather is currently {{ weatherInfo.weather[0].main }}
-        </h1>
+        
+        <div class="box">
+          
+          <h1 class="is-size-3">
+            Today's weather is currently <span class="has-text-info">{{ weatherInfo.weather[0].main }}y</span>
+          </h1>
+
+          <div>
+            <h1 class="is-size-1">🌤 {{ curTemp }}°F</h1>
+
+          </div>
+          <div>
+          </div>
+
+        </div>
+
       </div>
       
     </div>
